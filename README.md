@@ -9,8 +9,8 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 6. Rheyhan Adwimadiputra
 7. Zhikrillah Qalbhin Naim
 # Installasi Library
-# 1. Matplotlib
-Matplotlib merupakan library yang digunakan untuk visualisasi data seperti pembuatan plot grafik
+1. Matplotli: merupakan library yang digunakan untuk visualisasi data seperti pembuatan plot grafik. Dapat di install menggunakan perintah **pip install matplotlib** atau **conda install matplotlib** atau **conda install -c conda-forge matplotlib** 
+
 # 2. Numpy
 # 3. Siphon
 # Modul 1 - Adveksi Difusi 1 Dimensi
