@@ -4,7 +4,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 1. Diva Arivannisa
 2. Faiz Firman Barmawi
 3. Fina Naafiatur Rofiqoh (26050120120017)
-4. Mujieb Hariz Herlambang
+4. Mujieb Hariz Herlambang (26050120130114)
 5. Putri Salwa Adilah
 6. Rheyhan Adwimadiputra
 7. Zhikrillah Qalbhin Naim
