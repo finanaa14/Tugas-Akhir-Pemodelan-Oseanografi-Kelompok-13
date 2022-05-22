@@ -8,3 +8,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 5. Putri Salwa Adilah
 6. Rheyhan Adwimadiputra
 7. Zhikrillah Qalbhin Naim
+# Modul 1 - Adveksi Difusi 1 Dimensi
+# Modul 2 - Adveksi Difusi 2 Dimensi
+# Modul 3 - Model Hidrodinamika 1 Dimensi
+# Modul 4 - Model Hidrodinamika 2 Dimensi
