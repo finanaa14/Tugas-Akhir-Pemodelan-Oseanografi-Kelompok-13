@@ -74,8 +74,6 @@ Persamaan Turunan
   Stabilitas metode Upstream:\
   ![image](https://user-images.githubusercontent.com/106014055/169701969-1648c443-e085-4e64-971a-f81d2d491673.png)
 
-
-
 ## Difusi
 Merupakan suatu proses dimana suatu zat bergerak dari konsentrasi tinggi ke rendah. Pada difusi ini, diskritisasi dilakukan secara eksplisit (FTCS) dengan eksplisit continue maupun discontinue. Syarat batas terpebuhi sama dengan *overflow*.
 Contoh aplikasi difusi di bidang Oseanografi adalah Oil Spill.
@@ -86,3 +84,4 @@ Persamaan dasar\
 # Modul 2 - Adveksi Difusi 2 Dimensi
 # Modul 3 - Model Hidrodinamika 1 Dimensi
 # Modul 4 - Model Hidrodinamika 2 Dimensi
+# Penutup
