@@ -1,6 +1,6 @@
-# Tugas-Akhir-Pemodelan-Oseanografi-Kelompok-13
+# Tugas-Akhir-Pemodelan-Oseanografi-Kelompok-13🌊
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Jupyter Notebook dan Google Colaboratory. Sedangkan untuk library yang digunakan kali ini adalah Matplotlib dan Numpy. Seluruh script yang dibuat adalah hasil Kelompok 13 Oseanografi 2020. Semoga bermanfaat!
-# Authors (Kelompok 13)
+# Authors 👥
 1. Diva Arivannisa
 2. Faiz Firman Barmawi
 3. Fina Naafiatur Rofiqoh (26050120120017)
@@ -8,7 +8,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 5. Putri Salwa Adilah
 6. Rheyhan Adwimadiputra
 7. Zhikrillah Qalbhin Naim
-# Installasi Library
+# Installasi 🖥️
 1. Matplotlib: merupakan library yang digunakan untuk visualisasi data seperti pembuatan plot grafik.\
 Dapat di install menggunakan:
 ```
@@ -81,7 +81,12 @@ Contoh aplikasi difusi di bidang Oseanografi adalah Oil Spill.
 Persamaan dasar\
 ![image](https://user-images.githubusercontent.com/106014055/169703386-c7c24ec5-63b4-4cf7-a0d7-5fc69466d685.png)
 
+Implementasi:\
+
 # Modul 2 - Adveksi Difusi 2 Dimensi
+
 # Modul 3 - Model Hidrodinamika 1 Dimensi
+
 # Modul 4 - Model Hidrodinamika 2 Dimensi
+
 # Penutup
