@@ -56,8 +56,8 @@ Persamaan Turunan
   Syarat Kestabilan:\
   ![image](https://user-images.githubusercontent.com/106014055/169700736-3e7b36f3-d4a6-4c14-a3c7-cacc25e14985.png)
   
-  **Diskritisasi FTCS**
-  
+  Diskritisasi FTCS\
+  ![image](https://user-images.githubusercontent.com/106014055/169703085-3ac5df99-8c84-4b5d-97b9-234f70285584.png)
 
 * Leapfrog\
   Metode Leapfrog atau metode beda hingga ini merupakan perluasan dari metode beda tengah _(Central Difference)_ terhadap ruang dan waktu. Skema Leapfrog didapatkan dari turunan deret taylor, yang merupakan skema yang konsisten. Metode Leapfrog ini akan konsisten apabila nilai dari C kurang dari atau sama dengan 1.\
@@ -77,6 +77,11 @@ Persamaan Turunan
 
 
 ## Difusi
+Merupakan suatu proses dimana suatu zat bergerak dari konsentrasi tinggi ke rendah. Pada difusi ini, diskritisasi dilakukan secara eksplisit (FTCS) dengan eksplisit continue maupun discontinue. Syarat batas terpebuhi sama dengan *overflow*.
+Contoh aplikasi difusi di bidang Oseanografi adalah Oil Spill.
+
+Persamaan dasar\
+![image](https://user-images.githubusercontent.com/106014055/169703386-c7c24ec5-63b4-4cf7-a0d7-5fc69466d685.png)
 
 # Modul 2 - Adveksi Difusi 2 Dimensi
 # Modul 3 - Model Hidrodinamika 1 Dimensi
