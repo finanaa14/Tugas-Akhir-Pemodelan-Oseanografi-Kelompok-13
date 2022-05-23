@@ -46,7 +46,7 @@ Keterangan:\
 F = Konsentrasi suatu zat\
 t = waktu\
 U = kecepatan\
-x = arah sumbu horizontal\
+x = arah sumbu horizontal
 
 Persamaan Turunan
 * FTCS _(Forward Time Central Space)_\
