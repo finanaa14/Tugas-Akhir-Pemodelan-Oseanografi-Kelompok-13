@@ -67,9 +67,9 @@ Persamaan Turunan
  
 * Upstream\
   Merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Karena, nilai konsentrasi dalam komputer dan lapangan seringkali tidak selaras. Untuk menguji metode Upstream ini dibuat untuk model positif dari konsentrasi di alam yang merujuk ke laut.\
-  Metode ini menggunakan pendekatan beda maju untuk turunan waktu. Sedangkan untuk turunan terhadap ruang dilakukan dengan melihat arah kecepatan u dan o.\
-  -u > 0 : menggunakan pendekatan beda mundur
-  -u < 0 : menggunakan pendekatan beda maju.
+  Metode ini menggunakan pendekatan beda maju untuk turunan waktu. Sedangkan untuk turunan terhadap ruang dilakukan dengan melihat arah kecepatan u dengan ketentuan sebagai berikut:\
+  u > 0 : menggunakan pendekatan beda mundur\
+  u < 0 : menggunakan pendekatan beda maju.
   
   Stabilitas metode Upstream:\
   ![image](https://user-images.githubusercontent.com/106014055/169701969-1648c443-e085-4e64-971a-f81d2d491673.png)
@@ -82,6 +82,7 @@ Persamaan dasar\
 ![image](https://user-images.githubusercontent.com/106014055/169703386-c7c24ec5-63b4-4cf7-a0d7-5fc69466d685.png)
 
 Implementasi:\
+Adveksi Difusi 1 Dimensi ini dapat digunakan untuk pemodelan ...
 
 # Modul 2 - Adveksi Difusi 2 Dimensi
 
