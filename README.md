@@ -122,5 +122,13 @@ ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
 ax3.set_ylabel('Water Temperature [degC]')
 
 plt.show()
-5. aijvjpifj 
+```
+
 # Penutup
+Demikianlah tugas akhir praktikum metode Pemodelan Oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kelompok 11 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
+1. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+2. Dr. Aris Ismanto, S.SI., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+3. Dr, Elis Sulistyawati. S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. Rikha Widiaratih, S.Si., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+5. Tim Asisten Pemodelan Oseanografi 2022 yang mendampingi dari awal praktikum sampai tugas akhir ini.
+6. Seluruh teman-teman Oseanografi 2020 yang turut mendukung tersusunnya repositori ini.
