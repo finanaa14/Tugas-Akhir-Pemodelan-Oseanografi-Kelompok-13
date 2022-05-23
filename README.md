@@ -125,7 +125,7 @@ plt.show()
 ```
 
 # Penutup
-Demikianlah tugas akhir praktikum metode Pemodelan Oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kelompok 11 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
+Demikianlah tugas akhir praktikum metode Pemodelan Oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kelompok 13 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
 1. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 2. Dr. Aris Ismanto, S.SI., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 3. Dr, Elis Sulistyawati. S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
