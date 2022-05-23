@@ -124,6 +124,44 @@ px = 150
 py = 134
 Ic = 514
 ```
+3. Perhitungan U dan V
+```
+u = C * np.sin(theta*np.pi/180)
+v = C * np.cos(theta*np.pi/180)
+dt_count = 1/((abs(u)/q*dx))+(abs(v)/(q*dy))+(2*Ad/(q*dx**2))+(2*Ad/q*dy**2)
+
+Nx = int(x/dx)      #number of mesh in x direction
+Ny = int(y/dy)      #number of mesh in y direction
+Nt = int(Tend/dt)   #number of timesteps
+```
+4. Perhitungan titik polutan dibuang
+```
+px1 = int(px/dx)
+py1 = int(py/dy)
+```
+5. Penyederhanaan fungsi dan perhitungan CFL
+```
+lx = u*dt/dx
+ly = v*dt/dy
+ax = Ad*dt/dx**2
+ay = Ad*dt/dy**2
+cfl = (2*ax + 2*ay + abs(lx) + abs(ly))     #syarat kestabilan cfl
+#perhitungan CFL
+if cfl >= q:
+    print('CFL Violated, please use dt :' + str(round(dt_count,4)))
+    sys.exit()
+```
+6. Pembuatan grid
+```
+x_grid = np.linspace(0-dx, x+dx, Nx+2)      #ghostnode pada boundary
+y_grid = np.linspace(0-dx, y+dy, Ny+2)
+t = np.linspace(0, Tend, Nt+1)
+x_mesh,y_mesh = np.meshgrid(x_grid,y_grid)
+F = np.zeros((Nt+1, Ny+2, Nx+2))
+
+#kondisi awal
+F[0,py1,px1] = Ic
+```
 
 # Modul 3 - Model Hidrodinamika 1 Dimensi
 
