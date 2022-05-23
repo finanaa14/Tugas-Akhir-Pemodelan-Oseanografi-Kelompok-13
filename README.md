@@ -84,6 +84,47 @@ Persamaan dasar\
 
 # Modul 2 - Adveksi Difusi 2 Dimensi
 
+1. _Library_ yang digunakan
+```
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+```
+2. Pendefinisian 
+```
+def percentage(part, whole):
+    percentage = 100 * float(part)/float(whole)
+    return str(round(percentage,2)) + "x"
+```
+3. Penentuan Parameter Awal
+```
+# parameter awal 
+C = 0.41
+Ad = 1.41
+
+# arah arus (berdasar geographic convention)
+theta = 41
+#theta = 101
+#theta = 176
+#theta = 356
+
+# parameter lanjutan
+q = 0.95    #kriteria kestabilan
+x = 300     #Jumlah grid horizontal x
+y = 300     #jumlah grid vertikal y
+dx = 3
+dy = 3
+
+# lama simulasi
+Tend = 104
+#Tend = 1
+dt = 0.5
+#Polutan 
+px = 150
+py = 134
+Ic = 514
+```
+
 # Modul 3 - Model Hidrodinamika 1 Dimensi
 
 # Modul 4 - Model Hidrodinamika 2 Dimensi
