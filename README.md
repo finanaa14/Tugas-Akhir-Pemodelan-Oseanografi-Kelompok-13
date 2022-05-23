@@ -88,4 +88,10 @@ Persamaan dasar\
 
 # Modul 4 - Model Hidrodinamika 2 Dimensi
 
+1. _Library_ yang digunakan
+```
+import matplotlib.pyplot as plt
+from siphon.simplewebservice.ndbc import NDBC
+```
+
 # Penutup
