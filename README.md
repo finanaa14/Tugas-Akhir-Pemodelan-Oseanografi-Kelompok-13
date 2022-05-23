@@ -40,7 +40,7 @@ Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke t
 2. Hitungannya lebih sulit.
 3. Pengkodingan mudah dan cepat.
 
-Persamaan Utama\
+**Persamaan Utama**\
 ![image](https://user-images.githubusercontent.com/106014055/169699063-e2c71dbc-e757-40e0-80d9-7b419cb727bd.png)\
 Keterangan:\
 F = Konsentrasi suatu zat\
@@ -48,8 +48,8 @@ t = waktu\
 U = kecepatan\
 x = arah sumbu horizontal
 
-Persamaan Turunan
-* FTCS _(Forward Time Central Space)_\
+**Persamaan Turunan**
+* **FTCS _(Forward Time Central Space)_**\
   FTCS merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang. Solusi FTCS juga termasuk ke dalam solusi stabil bersyarat.\
   ![image](https://user-images.githubusercontent.com/106014055/169700950-1df4f8d5-fcac-4b25-9c0e-60a3d1ab0d27.png)
 
@@ -59,13 +59,13 @@ Persamaan Turunan
   Diskritisasi FTCS\
   ![image](https://user-images.githubusercontent.com/106014055/169703085-3ac5df99-8c84-4b5d-97b9-234f70285584.png)
 
-* Leapfrog\
+* **Leapfrog**\
   Metode Leapfrog atau metode beda hingga ini merupakan perluasan dari metode beda tengah _(Central Difference)_ terhadap ruang dan waktu. Skema Leapfrog didapatkan dari turunan deret taylor, yang merupakan skema yang konsisten. Metode Leapfrog ini akan konsisten apabila nilai dari C kurang dari atau sama dengan 1.\
  ![image](https://user-images.githubusercontent.com/106014055/169701321-e18b53b2-dde3-451c-9ef4-e32533818dbe.png)\
  dimana nilai C adalah:\
  ![image](https://user-images.githubusercontent.com/106014055/169701393-349dc247-3f2d-4368-a458-d20d75125082.png)
  
-* Upstream\
+* **Upstream**\
   Merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog. Karena, nilai konsentrasi dalam komputer dan lapangan seringkali tidak selaras. Untuk menguji metode Upstream ini dibuat untuk model positif dari konsentrasi di alam yang merujuk ke laut.\
   Metode ini menggunakan pendekatan beda maju untuk turunan waktu. Sedangkan untuk turunan terhadap ruang dilakukan dengan melihat arah kecepatan u dengan ketentuan sebagai berikut:\
   u > 0 : menggunakan pendekatan beda mundur\
@@ -76,13 +76,11 @@ Persamaan Turunan
 
 ## Difusi
 Merupakan suatu proses dimana suatu zat bergerak dari konsentrasi tinggi ke rendah. Pada difusi ini, diskritisasi dilakukan secara eksplisit (FTCS) dengan eksplisit continue maupun discontinue. Syarat batas terpebuhi sama dengan *overflow*.
-Contoh aplikasi difusi di bidang Oseanografi adalah Oil Spill.
+Contoh aplikasi difusi di bidang Oseanografi adalah **Oil Spill**.
 
 Persamaan dasar\
 ![image](https://user-images.githubusercontent.com/106014055/169703386-c7c24ec5-63b4-4cf7-a0d7-5fc69466d685.png)
 
-Implementasi:\
-Adveksi Difusi 1 Dimensi ini dapat digunakan untuk pemodelan ...
 
 # Modul 2 - Adveksi Difusi 2 Dimensi
 
