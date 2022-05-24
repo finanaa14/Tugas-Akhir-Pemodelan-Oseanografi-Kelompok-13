@@ -92,14 +92,23 @@ Persamaan dasar\
 
 # Modul 2 - Adveksi Difusi 2 Dimensi
 Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk menggambarkan pemodelan dalam 2 dimensi seperti dalam x dan y, x dan z, maupun y dan z. Dalam Adveksi Difusi 2 Dimensi ini menggunakan persamaan sebagai berikut:
-1. Persamaan Adveksi 2 Dimensi
-2.Persamaan Difusi 2 Dimensi
-3. Diskritisasi Suku Adveksi 2 Dimensi
-4. Diskritisasi Suku Difusi 2 Dimensi
-5. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi
-6. Syarat Batas
-7. Pemotongan Iterasi
-8. Kriteria Kestabilan
+1. Persamaan Adveksi 2 Dimensi\
+![image](https://user-images.githubusercontent.com/106014055/170067742-437d1654-53e3-445f-88e6-ecfbe942367d.png)
+
+3. Persamaan Difusi 2 Dimensi\
+![image](https://user-images.githubusercontent.com/106014055/170067970-b8692362-2401-4867-bee1-10c2df3dc02b.png)
+
+5. Diskritisasi Suku Adveksi 2 Dimensi\
+![image](https://user-images.githubusercontent.com/106014055/170070084-efe2242c-0144-44e1-b25c-15662d8e9cc7.png)
+
+7. Diskritisasi Suku Difusi 2 Dimensi
+![image](https://user-images.githubusercontent.com/106014055/170071462-8bea2921-d525-48df-b204-917741f61628.png)
+
+9. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi
+
+11. Syarat Batas
+12. Pemotongan Iterasi
+13. Kriteria Kestabilan
 
 **Script** yang digunakan untuk memodelkan adveksi difusi 2 dimensi adalah sebagai berikut:
 1. _Library_ yang digunakan
