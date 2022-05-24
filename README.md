@@ -166,12 +166,12 @@ F[0,py1,px1] = Ic
 ```
 
 # Modul 3 - Model Hidrodinamika 1 Dimensi
-Import Library
+1. Import Library
 ```
 import matplotlib.pyplot as plt
 import numpy as np
 ```
-1. Proses Awal
+2. Proses Awal
 ```
 p = 5000 #Panjang Grid
 T = 1200 #Waktu Simulasi 
@@ -181,7 +181,7 @@ dt = 2
 dx = 100
 To = 300 #Periode
 ```
-2. Parameter Lanjutan
+3. Parameter Lanjutan
 ```
 g = 9.8
 pi = np.pi
@@ -192,7 +192,7 @@ k = 2*pi/L #Koefisien Panjang Gelombang
 Mmax = int(p//dx)
 Nmax = int(T//dt) 
 ```
-3. Penyelesaian Persamaan Hidrodinamika 1D
+4. Penyelesaian Persamaan Hidrodinamika 1D
 ```
 zo = [None for _ in range(Mmax)]
 uo = [None for _ in range(Mmax)]
@@ -224,7 +224,8 @@ def rand_col_hex_string():
 hasilu_np = np.array(hasilu)
 hasilz_np = np.array(hasilz)
 ```
-4. Pembuatan Grafik
+5. Pembuatan Grafik
+```
 fig0, ax0 = plt.subplots(figsize=(12,8))
 for i in range(1, 16):
     col0 = rand_col_hex_string()
@@ -280,7 +281,6 @@ Hasil *running* yang diperoleh dari script diatas adalah sebagai berikut:
 
 4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid
 # Modul 4 - Model Hidrodinamika 2 Dimensi
-
 1. _Library_ yang digunakan
 ```
 import matplotlib.pyplot as plt
