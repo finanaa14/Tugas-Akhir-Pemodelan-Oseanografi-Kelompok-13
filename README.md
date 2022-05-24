@@ -1,5 +1,5 @@
 # Tugas-Akhir-Pemodelan-Oseanografi-Kelompok-13🌊
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Jupyter Notebook dan Google Colaboratory. Sedangkan untuk library yang digunakan kali ini adalah Matplotlib dan Numpy. Seluruh script yang dibuat adalah hasil Kelompok 13 Oseanografi 2020. Semoga bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Jupyter Notebook dan Google Colaboratory. Sedangkan untuk *library* yang digunakan kali ini adalah Matplotlib, Numpy, dan Siphon. Seluruh *script* yang dibuat adalah hasil Kelompok 13 Oseanografi 2020. Semoga bermanfaat!
 # Authors 👥
 1. Diva Arivannisa
 2. Faiz Firman Barmawi
@@ -10,8 +10,8 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 7. Zhikrillah Qalbhin Naim
 # Installasi 🖥️
 **Matplotlib**\
-Merupakan library yang digunakan untuk visualisasi data seperti pembuatan plot grafik.\
-Dapat di install menggunakan:
+Merupakan *library* yang digunakan untuk visualisasi data seperti pembuatan plot grafik.\
+Dapat di *install* menggunakan:
 ```
 pip install matplotlib
 ```
@@ -22,8 +22,8 @@ conda install matplotlib
 conda install -c conda-forge matplotlib
 ```
 ***Numpy***\
-Merupakan library yang berfungsi untuk memproses komputasi numerik seperti vektor dan matriks.\
-Dapat di install menggunakan:
+Merupakan *library* yang berfungsi untuk memproses komputasi numerik seperti vektor dan matriks.\
+Dapat di *install* menggunakan:
 ```
 pip install numpy
 ```
@@ -31,14 +31,14 @@ pip install numpy
 conda install numpy
 ```
 **Siphon**
-Merupakan library yang digunakan untuk mengunduh data dari web lain.\
-Dapat di install menggunakan
+Merupakan *library* yang digunakan untuk mengunduh data dari web lain.\
+Dapat di *install* menggunakan
 ```
 pip install siphon
 ```
 # Modul 1 - Adveksi Difusi 1 Dimensi
 ## Adveksi
-Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Adveksi berkaitan dengan aliran fluida. Adveksi dapat digambarkan menggunakan **Persamaan Gelombang Linier Orde 1** dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Terdapat 2 tipe persamaan yaitu eksplisit dan implisit.
+Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Adveksi ini biasanya berkaitan dengan aliran fluida. Adveksi dapat digambarkan menggunakan **Persamaan Gelombang Linier Orde 1** dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Terdapat 2 tipe persamaan yaitu eksplisit dan implisit.
 * Eksplisit
 1. Terdapat stabilitas hitungan.
 2. Hitungannya lebih mudah.
@@ -91,7 +91,17 @@ Persamaan dasar\
 
 
 # Modul 2 - Adveksi Difusi 2 Dimensi
+Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk menggambarkan pemodelan dalam 2 dimensi seperti dalam x dan y, x dan z, maupun y dan z. Dalam Adveksi Difusi 2 Dimensi ini menggunakan persamaan sebagai berikut:
+1. Persamaan Adveksi 2 Dimensi
+2.Persamaan Difusi 2 Dimensi
+3. Diskritisasi Suku Adveksi 2 Dimensi
+4. Diskritisasi Suku Difusi 2 Dimensi
+5. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi
+6. Syarat Batas
+7. Pemotongan Iterasi
+8. Kriteria Kestabilan
 
+**Script** yang digunakan untuk memodelkan adveksi difusi 2 dimensi adalah sebagai berikut:
 1. _Library_ yang digunakan
 ```
 import matplotlib.pyplot as plt
