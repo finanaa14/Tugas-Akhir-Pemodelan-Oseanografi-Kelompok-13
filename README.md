@@ -373,7 +373,7 @@ Hasil *running* yang diperoleh dari script diatas adalah sebagai berikut:
 
 4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid
 # Modul 4 - Model Hidrodinamika 2 Dimensi
-Pada modul 4 ini, data yang digunakan adalah data _real time_ dari buoy yang berada di lapangan. Data buoy yang digunakan berasal dari data _National Data Buoy Center_ yang dimiliki oleh NOAA. Output yang dihasilkan dari pemodelan 
+Pada modul 4 ini, data yang digunakan adalah data _real time_ dari buoy yang berada di lapangan. Data buoy yang digunakan berasal dari data _National Data Buoy Center_ yang dimiliki oleh NOAA. Output yang dihasilkan dari pemodelan akan menunjukkan tiga grafik, yaitu grafik kecepatan dan arah angin, tekanan udara, dan suhu perairan terhadap waktu. Dari output tersebut kemudian dianalisis untuk mengetahui korelasi antara parameter yang ada.
 *Script* yang dapat digunakan untuk model hidrodinamika 2 dimensi adalah sebagai berikut:
 
 1. _Library_ yang digunakan
