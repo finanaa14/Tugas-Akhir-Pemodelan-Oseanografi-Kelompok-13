@@ -30,6 +30,12 @@ pip install numpy
 ```
 conda install numpy
 ```
+**Siphon**
+Merupakan library yang digunakan untuk mengunduh data dari web lain.\
+Dapat di install menggunakan
+```
+pip install siphon
+```
 # Modul 1 - Adveksi Difusi 1 Dimensi
 ## Adveksi
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Adveksi berkaitan dengan aliran fluida. Adveksi dapat digambarkan menggunakan **Persamaan Gelombang Linier Orde 1** dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Terdapat 2 tipe persamaan yaitu eksplisit dan implisit.
