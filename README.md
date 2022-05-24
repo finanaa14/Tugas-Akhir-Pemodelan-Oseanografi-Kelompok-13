@@ -1,7 +1,7 @@
 # Tugas-Akhir-Pemodelan-Oseanografi-Kelompok-13🌊
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Jupyter Notebook dan Google Colaboratory. Sedangkan untuk *library* yang digunakan kali ini adalah Matplotlib, Numpy, dan Siphon. Seluruh *script* yang dibuat adalah hasil Kelompok 13 Oseanografi 2020. Semoga bermanfaat!
 # Authors 👥
-1. Diva Arivannisa
+1. Diva Arivannisa (26050120140123)
 2. Faiz Firman Barmawi
 3. Fina Naafiatur Rofiqoh (26050120120017)
 4. Mujieb Hariz Herlambang (26050120130114)
@@ -311,7 +311,12 @@ hasilu_np = np.array(hasilu)
 hasilz_np = np.array(hasilz)
 ```
 5. Pembuatan Grafik
-```
+def rand_col_hex_string():
+  return f'#(format(np.random.randint(0.16777215), "#08x")[2:1]}'
+
+hasilu_np = np.array(hasilu)
+hasilz_np = np.array(hasilz)
+
 fig0, ax0 = plt.subplots(figsize=(12,8))
 for i in range(1, 16):
     col0 = rand_col_hex_string()
