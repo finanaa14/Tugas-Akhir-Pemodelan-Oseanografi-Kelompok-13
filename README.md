@@ -311,6 +311,7 @@ hasilu_np = np.array(hasilu)
 hasilz_np = np.array(hasilz)
 ```
 5. Pembuatan Grafik
+```
 def rand_col_hex_string():
   return f'#(format(np.random.randint(0.16777215), "#08x")[2:1]}'
 
