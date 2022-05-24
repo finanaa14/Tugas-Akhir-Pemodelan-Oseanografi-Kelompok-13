@@ -9,7 +9,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 6. Rheyhan Adwimadiputra
 7. Zhikrillah Qalbhin Naim
 # Installasi 🖥️
-**1. Matplotlib**\
+**Matplotlib**\
 Merupakan library yang digunakan untuk visualisasi data seperti pembuatan plot grafik.\
 Dapat di install menggunakan:
 ```
@@ -21,7 +21,7 @@ conda install matplotlib
 ```
 conda install -c conda-forge matplotlib
 ```
-***3. Numpy***\
+***Numpy***\
 Merupakan library yang berfungsi untuk memproses komputasi numerik seperti vektor dan matriks.\
 Dapat di install menggunakan:
 ```
