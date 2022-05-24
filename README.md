@@ -101,7 +101,7 @@ Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk me
 5. Diskritisasi Suku Adveksi 2 Dimensi\
 ![image](https://user-images.githubusercontent.com/106014055/170070084-efe2242c-0144-44e1-b25c-15662d8e9cc7.png)
 
-7. Diskritisasi Suku Difusi 2 Dimensi
+7. Diskritisasi Suku Difusi 2 Dimensi\
 ![image](https://user-images.githubusercontent.com/106014055/170071462-8bea2921-d525-48df-b204-917741f61628.png)
 
 9. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi
