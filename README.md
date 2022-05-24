@@ -180,6 +180,45 @@ F = np.zeros((Nt+1, Ny+2, Nx+2))
 #kondisi awal
 F[0,py1,px1] = Ic
 ```
+7. Iterasi 
+```
+for n in range (0,Nt):
+    for i in range (1,Ny+1):
+        for j in range(1,Nx+1):
+            F[n+1,i,j]=((F[n,i,j]*(1-abs(lx)-abs(ly))) + \
+                (0.5*(F[n,i-1,j]*(ly+abs(ly)))) + \
+                (0.5*(F[n,i+1,j]*(abs(ly)-ly))) + \
+                (0.5*(F[n,i,j-1]*(lx+abs(lx)))) + \
+                (0.5*(F[n,i,j+1]*(abs(lx)-lx))) + \
+                (ay*(F[n,i+1,j]-2*(F[n,i,j])+F[n,i-1,j])) +\
+                (ax*(F[n,i,j+1]-2*(F[n,i,j])+F[n,i,j-1])))
+```
+8. Syarat batas
+```
+ F[n+1,0,:] = 0 #BC bawah
+ F[n+1,:,0] = 0 #BC kiri
+ F[n+1,Ny+1,:] = 0 #BC atas
+ F[n+1,:,Nx+1] = 0 #BC kanan
+```
+9. Pembuatan output gambar
+```
+plt.clf()
+plt.pcolor(x_mesh, y_mesh, F[n+1,:,:],cmap = 'jet',shading = 'auto',edgecolors = 'k')
+cbar = plt.colorbar(orientation = 'vertical', shrink = 0.95, extend = 'both')
+cbar.set_label(label='concentration', size = 8)
+
+#plt.clim(0,100)
+plt.title('Nama_NIM \n t= '+ str(round(dt*(n+1),3))+', Initial Condition='+str(Ic), fontsize = 10)
+plt.xlabel('x_grid', fontsize = 9)
+plt.ylabel('y_grid', fontsize = 9)
+plt.axis([0, x, 0, y])
+#plt.pause(0.01)
+plt.savefig(str(n+1)+' .jpg', dpi = 300)
+plt.pause(0.01)
+plt.close()
+print('running timestep ke: ' + str(n+1) + ' dari: ' + str(Nt) + '('+ percentage(n+1,Nt)+')')
+print( ' Nilai CFL: ' +str(cfl) + 'dengan arah:' +str(theta))
+```
 
 # Modul 3 - Model Hidrodinamika 1 Dimensi
 1. Import Library
