@@ -104,7 +104,8 @@ Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk me
 7. Diskritisasi Suku Difusi 2 Dimensi\
 ![image](https://user-images.githubusercontent.com/106014055/170071462-8bea2921-d525-48df-b204-917741f61628.png)
 
-9. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi
+9. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi\
+![image](https://user-images.githubusercontent.com/106014055/170077808-3f17d7ca-7253-4c87-9948-f92468c4c532.png)
 
 11. Syarat Batas
 12. Pemotongan Iterasi
@@ -228,9 +229,30 @@ plt.close()
 print('running timestep ke: ' + str(n+1) + ' dari: ' + str(Nt) + '('+ percentage(n+1,Nt)+')')
 print( ' Nilai CFL: ' +str(cfl) + 'dengan arah:' +str(theta))
 ```
+Berikut merupakan contoh *output* yang dihasilkan dari *script* diatas:
 
 # Modul 3 - Model Hidrodinamika 1 Dimensi
-1. Import Library
+**Hidrodinamika** adalah ilmu yang mempelajari tentang pergerakansuati fluida.\
+**Model hidrodinamika** merupakan model yang dibangun dari adanya proses-proses yang mempengaruhi massa air. Dalam pemodelan hidrodinamika berlaku **Hukum Konservasi Massa/Kontinuitas** dan **Hukum Momentum**. Pemodelan hidrodinamika ini mensimulasikan elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter.
+1. Persamaan Momentum
+
+3. Persamaan Kontinuitas
+
+5. Persamaan Pembangun
+
+7. Persamaan Transport
+
+9. Diskritisasi
+
+Keterangan:
+
+**Kelemahan Model Hidrodinamika:**
+1. Memerlukan banyak data
+2. Rawan terjadinya *error* ketika terdapat perhitungan aliran kritis
+3. Simulasi atau *running* memerlukan waktu yang lama dengan timestep yang cenderung harus kecil
+
+Berikut merupakan *script* yang dapat digunakan untuk model hidrodinamika 1 dimensi
+1. *Import Library*
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -345,6 +367,8 @@ Hasil *running* yang diperoleh dari script diatas adalah sebagai berikut:
 
 4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid
 # Modul 4 - Model Hidrodinamika 2 Dimensi
+*Script* yang dapat digunakan untuk model hidrodinamika 2 dimensi adalah sebagai berikut:
+
 1. _Library_ yang digunakan
 ```
 import matplotlib.pyplot as plt
@@ -380,6 +404,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 plt.show()
 ```
+Grafik yang dihasilkan dari running script ini adalah sebagai berikut:
 
 # Penutup
 Demikianlah tugas akhir praktikum metode Pemodelan Oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kelompok 13 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
