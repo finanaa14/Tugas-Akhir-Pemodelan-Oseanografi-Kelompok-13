@@ -164,10 +164,13 @@ F[0,py1,px1] = Ic
 ```
 
 # Modul 3 - Model Hidrodinamika 1 Dimensi
+Import Library
+```
 import matplotlib.pyplot as plt
 import numpy as np
-
+```
 1. Proses Awal
+```
 p = 5000 #Panjang Grid
 T = 1200 #Waktu Simulasi 
 A = 0.5 #Amplitudo
@@ -175,8 +178,9 @@ D = 15 #Depth/kedalaman
 dt = 2
 dx = 100
 To = 300 #Periode
-
+```
 2. Parameter Lanjutan
+```
 g = 9.8
 pi = np.pi
 C = np.sqrt(g*D) #Kecepatan Arus
@@ -185,8 +189,9 @@ L = C*To #Panjang Gelombang
 k = 2*pi/L #Koefisien Panjang Gelombang
 Mmax = int(p//dx)
 Nmax = int(T//dt) 
-
+```
 3. Penyelesaian Persamaan Hidrodinamika 1D
+```
 zo = [None for _ in range(Mmax)]
 uo = [None for _ in range(Mmax)]
 
@@ -262,7 +267,7 @@ for i in range(1, 16):
     ax3.grid()
 
 plt.show()
-
+```
 
 # Modul 4 - Model Hidrodinamika 2 Dimensi
 
