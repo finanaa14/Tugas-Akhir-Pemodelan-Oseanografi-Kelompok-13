@@ -104,7 +104,7 @@ def percentage(part, whole):
 C = 0.41
 Ad = 1.41
 
-# arah arus (berdasar geographic convention)
+# arah arus (berdasar *geographic convention*)
 theta = 41
 #theta = 101
 #theta = 176
