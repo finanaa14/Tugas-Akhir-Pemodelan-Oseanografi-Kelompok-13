@@ -223,7 +223,8 @@ def rand_col_hex_string():
 
 hasilu_np = np.array(hasilu)
 hasilz_np = np.array(hasilz)
-
+```
+4. Pembuatan Grafik
 fig0, ax0 = plt.subplots(figsize=(12,8))
 for i in range(1, 16):
     col0 = rand_col_hex_string()
@@ -270,7 +271,14 @@ for i in range(1, 16):
 
 plt.show()
 ```
+Hasil *running* yang diperoleh dari script diatas adalah sebagai berikut:
+1. Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu
 
+2. Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid
+
+3. Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu
+
+4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid
 # Modul 4 - Model Hidrodinamika 2 Dimensi
 
 1. _Library_ yang digunakan
