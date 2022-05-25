@@ -89,7 +89,6 @@ Contoh aplikasi difusi di bidang Oseanografi adalah **Oil Spill**.
 Persamaan dasar\
 ![image](https://user-images.githubusercontent.com/106014055/169703386-c7c24ec5-63b4-4cf7-a0d7-5fc69466d685.png)
 
-
 # Modul 2 - Adveksi Difusi 2 Dimensi
 Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk menggambarkan pemodelan dalam 2 dimensi seperti dalam x dan y, x dan z, maupun y dan z. Dalam Adveksi Difusi 2 Dimensi ini menggunakan persamaan sebagai berikut:
 1. Persamaan Adveksi 2 Dimensi\
@@ -107,9 +106,17 @@ Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk me
 9. Diskritisasi Gabungan Adveksi Difusi 2 Dimensi\
 ![image](https://user-images.githubusercontent.com/106014055/170077808-3f17d7ca-7253-4c87-9948-f92468c4c532.png)
 
-11. Syarat Batas
-12. Pemotongan Iterasi
-13. Kriteria Kestabilan
+11. Syarat Batas\
+Menggambarkan kondisi ruang maupun waktu dari model yang di bangun. Menggunakan syarat batas sebagai berikut:\
+![image](https://user-images.githubusercontent.com/106014055/170155991-f419975e-2f78-4151-ae62-fabda0bd17ac.png)
+
+13. Pemotongan Iterasi\
+Pemotongan iterasi dapat dilakukan apabila telah mencapai batas sebagai berikut:\
+![image](https://user-images.githubusercontent.com/106014055/170156382-4f6e18f9-6c53-4777-b97f-2e133f6055e3.png)
+
+15. Kriteria Kestabilan\
+Merupakan metode untuk menentukan seberapa besar nilai stabilitasdari model yang dibangun.\
+![image](https://user-images.githubusercontent.com/106014055/170157206-8724b151-f1e3-4825-bfd9-512718c4e78c.png)
 
 **Script** yang digunakan untuk memodelkan adveksi difusi 2 dimensi adalah sebagai berikut:
 1. _Library_ yang digunakan
@@ -365,13 +372,18 @@ for i in range(1, 16):
 plt.show()
 ```
 Hasil *running* yang diperoleh dari script diatas adalah sebagai berikut:
-1. Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu
+1. Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu\
+![perubahan elevasi permukaan air dalam grid tertentu](https://user-images.githubusercontent.com/106014055/170155230-15254dee-5bb0-4fbd-b4a2-11e62e4828f2.png)
 
-2. Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid
+2. Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid\
+![perubahan elevasi permukaan air dalam waktu tertentu](https://user-images.githubusercontent.com/106014055/170155258-629579f3-edfd-441b-bcea-aaa071e1247a.png)
 
-3. Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu
+3. Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu\
+![perubahan kecepatan arus dalam grid tertentu](https://user-images.githubusercontent.com/106014055/170155286-f73898ed-280c-4897-98b7-a716a3d348ea.png)
 
-4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid
+4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid\
+![perubahan kecepatan arus dalam waktu tertentu](https://user-images.githubusercontent.com/106014055/170155319-40131652-0720-4e8c-9a7d-60a9295023d5.png)
+
 # Modul 4 - Model Hidrodinamika 2 Dimensi
 Pada modul 4 ini, data yang digunakan adalah data _real time_ dari buoy yang berada di lapangan. Data buoy yang digunakan berasal dari data _National Data Buoy Center_ yang dimiliki oleh NOAA. Output yang dihasilkan dari pemodelan akan menunjukkan tiga grafik, yaitu grafik kecepatan dan arah angin, tekanan udara, dan suhu perairan terhadap waktu. Dari output tersebut kemudian dianalisis untuk mengetahui korelasi antara parameter yang ada.
 *Script* yang dapat digunakan untuk model hidrodinamika 2 dimensi adalah sebagai berikut:
