@@ -5,7 +5,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 2. Faiz Firman Barmawi
 3. Fina Naafiatur Rofiqoh (26050120120017)
 4. Mujieb Hariz Herlambang (26050120130114)
-5. Putri Salwa Adilah
+5. Putri Salwa Adilah (26050120140152)
 6. Rheyhan Adwimadiputra
 7. Zhikrillah Qalbhin Naim
 # Installasi 🖥️
@@ -424,6 +424,11 @@ ax3.set_ylabel('Water Temperature [degC]')
 plt.show()
 ```
 Grafik yang dihasilkan dari running script ini adalah sebagai berikut:
+1. ![GRAFIK 1](https://user-images.githubusercontent.com/106166450/170160839-a08bcf91-e10a-4f46-b175-cb9d7f25f2d4.png)
+2. ![plot_wind_pres](https://user-images.githubusercontent.com/106166450/170161162-f38dd642-6bfb-471b-87c2-b320c51a94c7.png)
+
+Stasiun 41008 - GREYS REEF - 40 NM Tenggara Savannah, GA Dimiliki dan dipelihara oleh National Data Buoy Center Pelampungcakram 3 meter ARES payload 31.400 N 
+80.866 W (31°24'0" N 80°51'59" W) Kedalaman air: 16 m Jari- jari lingkaran arloji: 69 yard.
 
 # Penutup
 Demikianlah tugas akhir praktikum metode Pemodelan Oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Kelompok 13 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
