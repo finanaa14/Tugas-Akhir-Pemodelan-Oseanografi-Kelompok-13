@@ -248,11 +248,19 @@ Berikut merupakan contoh *output* yang dihasilkan dari *script* diatas:
 
 2. Persamaan Kontinuitas
 
+![pers kontinuitas](https://user-images.githubusercontent.com/106015581/170194829-624d2ac2-76e8-4369-af85-fa982d881d78.JPG)
+
 3. Persamaan Pembangun
+
+![pers  pembangun1](https://user-images.githubusercontent.com/106015581/170194867-aa9e941a-e2e5-49d5-9b2b-09ec4f24d4fc.JPG)
+![pers  pembangun2](https://user-images.githubusercontent.com/106015581/170194899-4d3990cf-f077-4b7f-89c5-04b3808b1634.JPG)
 
 4. Persamaan Transport
 
 5. Diskritisasi
+
+![diskretisasi u](https://user-images.githubusercontent.com/106015581/170194947-3aca6543-d569-478d-84e8-c300dbc56deb.JPG)
+![diskretisasi zeta](https://user-images.githubusercontent.com/106015581/170195004-ebda57d0-3356-4468-b03f-b737eafc812c.JPG)
 
 Keterangan:
 
