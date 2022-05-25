@@ -237,6 +237,7 @@ print('running timestep ke: ' + str(n+1) + ' dari: ' + str(Nt) + '('+ percentage
 print( ' Nilai CFL: ' +str(cfl) + 'dengan arah:' +str(theta))
 ```
 Berikut merupakan contoh *output* yang dihasilkan dari *script* diatas:
+![208 ](https://user-images.githubusercontent.com/106015581/170193151-6720953b-397e-49a8-a0b4-ce1f986a73e5.jpg)
 
 # Modul 3 - Model Hidrodinamika 1 Dimensi📈
 **Hidrodinamika** adalah ilmu yang mempelajari tentang pergerakansuati fluida.\
