@@ -36,7 +36,7 @@ Dapat di *install* menggunakan
 ```
 pip install siphon
 ```
-# Modul 1 - Adveksi Difusi 1 Dimensi
+# Modul 1 - Adveksi Difusi 1 Dimensi📝
 ## Adveksi
 Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Adveksi ini biasanya berkaitan dengan aliran fluida. Adveksi dapat digambarkan menggunakan **Persamaan Gelombang Linier Orde 1** dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Terdapat 2 tipe persamaan yaitu eksplisit dan implisit.
 * Eksplisit
@@ -89,7 +89,7 @@ Contoh aplikasi difusi di bidang Oseanografi adalah **Oil Spill**.
 Persamaan dasar\
 ![image](https://user-images.githubusercontent.com/106014055/169703386-c7c24ec5-63b4-4cf7-a0d7-5fc69466d685.png)
 
-# Modul 2 - Adveksi Difusi 2 Dimensi
+# Modul 2 - Adveksi Difusi 2 Dimensi📍
 Adveksi Difusi 2 Dimensi  menggunakan persamaan yang telah dimodifikasi untuk menggambarkan pemodelan dalam 2 dimensi seperti dalam x dan y, x dan z, maupun y dan z. Dalam Adveksi Difusi 2 Dimensi ini menggunakan persamaan sebagai berikut:
 1. Persamaan Adveksi 2 Dimensi\
 ![image](https://user-images.githubusercontent.com/106014055/170067742-437d1654-53e3-445f-88e6-ecfbe942367d.png)
@@ -238,7 +238,7 @@ print( ' Nilai CFL: ' +str(cfl) + 'dengan arah:' +str(theta))
 ```
 Berikut merupakan contoh *output* yang dihasilkan dari *script* diatas:
 
-# Modul 3 - Model Hidrodinamika 1 Dimensi
+# Modul 3 - Model Hidrodinamika 1 Dimensi📈
 **Hidrodinamika** adalah ilmu yang mempelajari tentang pergerakansuati fluida.\
 **Model hidrodinamika** merupakan model yang dibangun dari adanya proses-proses yang mempengaruhi massa air. Dalam pemodelan hidrodinamika berlaku **Hukum Konservasi Massa/Kontinuitas** dan **Hukum Momentum**. Pemodelan hidrodinamika ini mensimulasikan elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter.
 1. Persamaan Momentum
@@ -384,7 +384,7 @@ Hasil *running* yang diperoleh dari script diatas adalah sebagai berikut:
 4. Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid\
 ![perubahan kecepatan arus dalam waktu tertentu](https://user-images.githubusercontent.com/106014055/170155319-40131652-0720-4e8c-9a7d-60a9295023d5.png)
 
-# Modul 4 - Model Hidrodinamika 2 Dimensi
+# Modul 4 - Model Hidrodinamika 2 Dimensi📊
 Pada modul 4 ini, data yang digunakan adalah data _real time_ dari buoy yang berada di lapangan. Data buoy yang digunakan berasal dari data _National Data Buoy Center_ yang dimiliki oleh NOAA. Output yang dihasilkan dari pemodelan akan menunjukkan tiga grafik, yaitu grafik kecepatan dan arah angin, tekanan udara, dan suhu perairan terhadap waktu. Dari output tersebut kemudian dianalisis untuk mengetahui korelasi antara parameter yang ada.
 *Script* yang dapat digunakan untuk model hidrodinamika 2 dimensi adalah sebagai berikut:
 
