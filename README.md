@@ -243,14 +243,14 @@ Berikut merupakan contoh *output* yang dihasilkan dari *script* diatas:
 **Hidrodinamika** adalah ilmu yang mempelajari tentang pergerakansuati fluida.\
 **Model hidrodinamika** merupakan model yang dibangun dari adanya proses-proses yang mempengaruhi massa air. Dalam pemodelan hidrodinamika berlaku **Hukum Konservasi Massa/Kontinuitas** dan **Hukum Momentum**. Pemodelan hidrodinamika ini mensimulasikan elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter.
 1. Persamaan Momentum
+![pers momentum](https://user-images.githubusercontent.com/106015581/170194368-efa49f99-2f8d-431c-94cd-93ca71eb2c9a.JPG)
+2. Persamaan Kontinuitas
 
-3. Persamaan Kontinuitas
+3. Persamaan Pembangun
 
-5. Persamaan Pembangun
+4. Persamaan Transport
 
-7. Persamaan Transport
-
-9. Diskritisasi
+5. Diskritisasi
 
 Keterangan:
 
