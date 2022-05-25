@@ -7,7 +7,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 4. Mujieb Hariz Herlambang (26050120130114)
 5. Putri Salwa Adilah (26050120140152)
 6. Rheyhan Adwimadiputra
-7. Zhikrillah Qalbhin Naim
+7. Zhikrillah Qalbhin Naim (26050120140155)
 # Installasi 🖥️
 **Matplotlib**\
 Merupakan *library* yang digunakan untuk visualisasi data seperti pembuatan plot grafik.\
